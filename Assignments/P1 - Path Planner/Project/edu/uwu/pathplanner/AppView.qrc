@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>edu/uwu/pathplanner/resources/app.ico</file>
+        <file>edu/uwu/pathplanner/resources/open.ico</file>
+        <file>edu/uwu/pathplanner/resources/pause.ico</file>
+        <file>edu/uwu/pathplanner/resources/play.ico</file>
+        <file>edu/uwu/pathplanner/resources/play_end.ico</file>
+        <file>edu/uwu/pathplanner/resources/play_pause.ico</file>
+        <file>edu/uwu/pathplanner/resources/stop.ico</file>
+        <!--file>edu/uwu/pathplanner/resources/goal.ico</file-->
+        <!--file>edu/uwu/pathplanner/resources/start.ico</file-->
+    </qresource>
+</RCC>
