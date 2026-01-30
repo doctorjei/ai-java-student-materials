@@ -87,7 +87,7 @@ public class TreeNode<T>
         // Post-order traversal starting at this node. Calls dataFunction.accept() on the element to process it.
         for (int i = 0; i < this.childrenOfParent.size(); i++)
         {
-            this.getChild(i).preOrderTraverse(dataFunction);
+            this.getChild(i).postOrderTraverse(dataFunction);
         }
 
         dataFunction.accept(this.parentData);
