@@ -1,0 +1,20 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Uwu.Games.Reversi.AboutBox" Title="About Reversi" CanResize="False"
+        SizeToContent="WidthAndHeight" ShowInTaskbar="False" WindowStartupLocation="CenterOwner" >
+  <Border Padding="12">
+    <StackPanel Spacing="10" Width="321">
+      <TextBlock x:Name="titleLabel" Text="Reversi AI Project"
+                 FontWeight="Bold" HorizontalAlignment="Center"/>
+      <StackPanel Spacing="4">
+        <TextBlock x:Name="hallLabel" HorizontalAlignment="Center"
+                                Text="Copyright 2003-2005 Mike Hall" />
+        <TextBlock x:Name="fsLabel" HorizontalAlignment="Center"
+                        Text="Copyright 2009-2013 Full Sail University"/>
+        <TextBlock x:Name="cactiLabel" HorizontalAlignment="Center"
+                            Text="Copyright 2019-2025 Cacti Council Inc."/>
+      </StackPanel>
+      <Button x:Name="okButton" Content="OK" Width="120" Height="33"
+          HorizontalAlignment="Center" IsDefault="True" IsCancel="True"/>
+    </StackPanel>
+  </Border>
+</Window>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- General settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ProjectGuid>{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <RootNamespace>Uwu.Games.Reversi.Gui</RootNamespace>
+    <AssemblyName>ReversiGui</AssemblyName> <!-- Check out OutputAssembly too -->
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\Reversi.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <!-- Debug Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <!--OutputPath>bin\Debug\</OutputPath-->
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Release Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <!--OutputPath>bin\Release\</OutputPath-->
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Package dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Controls.DataGrid" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Themes.Simple" Version="11.3.9" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.9" />
+    <PackageReference Include="CustomMessageBox.Avalonia" Version="11.0.0.2" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.119.1"/>
+    <PackageReference Include="SkiaSharp.Views" Version="3.119.1" />
+  </ItemGroup>
+
+  <!-- Resources -->
+  <ItemGroup><AvaloniaResource Include="Assets\**" /></ItemGroup>
+
+<!--ItemGroup>
+  <AvaloniaXaml Include="Views\*.axaml" />
+</ItemGroup-->
+
+  <!-- Dependencies on projects in solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\Core\\Reversi.Core.csproj" />
+    <ProjectReference Include="..\Engine\\Reversi.Engine.csproj" />
+    <ProjectReference Include="..\Student\Reversi.Student.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExampleAI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ExampleAI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+    
+</Project>

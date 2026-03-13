@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Uwu.Games.Reversi.ColorPickerDialog" Title="Select Color" CanResize="False"
+        Width="300" Height="280" ShowInTaskbar="False" WindowStartupLocation="CenterOwner">
+    
+  <Border Padding="12">
+    <DockPanel>
+      <!-- Buttons -->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal"  HorizontalAlignment="Right"
+                    Spacing="8" Margin="0,12,0,0">
+        <Button x:Name="OkButton" Content="OK" Width="75" IsDefault="True" Click="OkButton_Click"/>
+        <Button x:Name="CancelButton" Content="Cancel" Width="75" Click="CancelButton_Click"/>
+      </StackPanel>
+            
+      <!-- Color Selection -->
+      <StackPanel Spacing="12">
+        <!-- Preview -->
+        <Border x:Name="PreviewBorder" Height="60" BorderBrush="Black" BorderThickness="1"/>
+                
+        <!-- RGB Sliders -->
+        <StackPanel Spacing="8">
+          <Grid ColumnDefinitions="20,*,40" RowSpacing="8">
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="R:" VerticalAlignment="Center"/>
+            <Slider Grid.Row="0" Grid.Column="1" x:Name="RedSlider" Minimum="0" Maximum="255"
+                    ValueChanged="ColorSlider_ValueChanged"/>
+            <TextBlock Grid.Row="0" Grid.Column="2" x:Name="RedValue" Text="0"
+                       HorizontalAlignment="Right" VerticalAlignment="Center"/>
+          </Grid>
+                    
+          <Grid ColumnDefinitions="20,*,40">
+            <TextBlock Grid.Column="0" Text="G:" VerticalAlignment="Center"/>
+            <Slider Grid.Column="1" x:Name="GreenSlider" Minimum="0" Maximum="255"
+                    ValueChanged="ColorSlider_ValueChanged"/>
+            <TextBlock Grid.Column="2" x:Name="GreenValue" 
+                       Text="0" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+          </Grid>
+                    
+          <Grid ColumnDefinitions="20,*,40">
+            <TextBlock Grid.Column="0" Text="B:" VerticalAlignment="Center"/>
+            <Slider Grid.Column="1" x:Name="BlueSlider" Minimum="0" Maximum="255"
+                    ValueChanged="ColorSlider_ValueChanged"/>
+            <TextBlock Grid.Column="2" x:Name="BlueValue" HorizontalAlignment="Right"
+                    VerticalAlignment="Center"/>
+          </Grid>
+        </StackPanel>
+                
+        <!-- Hex Input -->
+        <Grid ColumnDefinitions="Auto,*">
+          <TextBlock Grid.Column="0" Text="Hex: #" VerticalAlignment="Center" Margin="0,0,4,0"/>
+          <TextBox Grid.Column="1" x:Name="HexTextBox" MaxLength="6" TextChanged="HexTextBox_TextChanged"/>
+        </Grid>
+      </StackPanel>
+    </DockPanel>
+  </Border>
+</Window>

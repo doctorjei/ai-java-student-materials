@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProjectGuid>{BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <RootNamespace>Uwu.Games.Reversi</RootNamespace>
+    <AssemblyName>Reversi.Core</AssemblyName> <!-- Check out OutputAssembly too -->
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <!-- Debug Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Release Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <!--OutputPath>bin\Release\</OutputPath-->
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Dependencies on projects in solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\Uwu\LibUwu.csproj" />
+  </ItemGroup>
+</Project>

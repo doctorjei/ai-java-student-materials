@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- General settings -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\Flocking.ico</ApplicationIcon>
+    <RootNamespace>Uwu.Simulation.Steering.Flocking</RootNamespace>
+    <AssemblyName>Flocking</AssemblyName>
+  </PropertyGroup>
+
+  <!-- Package dependencies -->
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.3.7" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.3.7" />
+    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.7" />
+    <PackageReference Include="Avalonia.Themes.Simple" Version="11.3.7" />
+    <PackageReference Include="SkiaSharp" Version="3.119.1" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="3.119.1" />
+    <PackageReference Include="SkiaSharp.Views" Version="3.119.1" />
+  </ItemGroup>
+
+  <!-- Resources -->
+  <ItemGroup><AvaloniaResource Include="Assets\**" /></ItemGroup>
+
+  <!-- ExampleAI dependency -->
+  <ItemGroup>
+    <Reference Include="ExampleAI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExampleAI\ExampleAI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Dependencies on projects in solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\SimCore\SimCore.csproj" />
+    <ProjectReference Include="..\StudentAI\StudentAI.csproj" />
+  </ItemGroup>
+</Project>
