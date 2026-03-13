@@ -28,4 +28,11 @@
   <!-- Dependencies on projects in solution -->
   <ItemGroup><ProjectReference Include="..\Core\Reversi.Core.csproj" /></ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="ExampleAI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ExampleAI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

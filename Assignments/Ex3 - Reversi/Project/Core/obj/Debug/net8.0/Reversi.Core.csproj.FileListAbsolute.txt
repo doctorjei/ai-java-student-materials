@@ -1,0 +1,16 @@
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\bin\Debug\net8.0\Reversi.Core.deps.json
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\bin\Debug\net8.0\Reversi.Core.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\bin\Debug\net8.0\Reversi.Core.pdb
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\bin\Debug\net8.0\LibUwu.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\bin\Debug\net8.0\LibUwu.pdb
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.csproj.AssemblyReference.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.AssemblyInfoInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.AssemblyInfo.cs
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.csproj.CoreCompileInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.sourcelink.json
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi..813F7C5B.Up2Date
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\refint\Reversi.Core.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\Reversi.Core.pdb
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Core\obj\Debug\net8.0\ref\Reversi.Core.dll

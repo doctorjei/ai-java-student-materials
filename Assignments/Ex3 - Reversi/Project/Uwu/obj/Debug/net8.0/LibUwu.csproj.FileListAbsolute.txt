@@ -1,0 +1,13 @@
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\bin\Debug\net8.0\LibUwu.deps.json
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\bin\Debug\net8.0\LibUwu.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\bin\Debug\net8.0\LibUwu.pdb
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.csproj.AssemblyReference.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.AssemblyInfoInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.AssemblyInfo.cs
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.csproj.CoreCompileInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.sourcelink.json
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\refint\LibUwu.dll
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\LibUwu.pdb
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Uwu\obj\Debug\net8.0\ref\LibUwu.dll

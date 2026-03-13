@@ -1,0 +1,6 @@
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.csproj.AssemblyReference.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.AssemblyInfoInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.AssemblyInfo.cs
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.csproj.CoreCompileInputs.cache
+c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.sourcelink.json

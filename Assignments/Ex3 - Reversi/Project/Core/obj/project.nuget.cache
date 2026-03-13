@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FcP59aQoDhU=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kagol\\.nuget\\packages\\system.io.hashing\\9.0.14\\system.io.hashing.9.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LibUwu/1.0.0": {
+        "dependencies": {
+          "System.IO.Hashing": "9.0.14"
+        },
+        "runtime": {
+          "LibUwu.dll": {}
+        }
+      },
+      "System.IO.Hashing/9.0.14": {
+        "runtime": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "9.0.0.14",
+            "fileVersion": "9.0.1426.11910"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibUwu/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IO.Hashing/9.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cyfW1awmZVpEPAUCVlF8orJ2NqZjr6L4VpjE88Fvhp3XHDyQNRwC10zzjUPXmpjVknh+r2xFbVDdcX7LnzJ+zg==",
+      "path": "system.io.hashing/9.0.14",
+      "hashPath": "system.io.hashing.9.0.14.nupkg.sha512"
+    }
+  }
+}
