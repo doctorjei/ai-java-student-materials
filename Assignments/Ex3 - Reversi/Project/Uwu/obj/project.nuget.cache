@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EdopNBT+cQo=",
+  "dgSpecHash": "MdO1pOmpD5Y=",
   "success": true,
-  "projectFilePath": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
+  "projectFilePath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kagol\\.nuget\\packages\\system.io.hashing\\9.0.14\\system.io.hashing.9.0.14.nupkg.sha512"
   ],

@@ -1,0 +1,15 @@
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\bin\Debug\net8.0\Reversi.Tui.exe
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\bin\Debug\net8.0\Reversi.Tui.deps.json
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\bin\Debug\net8.0\Reversi.Tui.runtimeconfig.json
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\bin\Debug\net8.0\Reversi.Tui.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\bin\Debug\net8.0\Reversi.Tui.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.AssemblyInfoInputs.cache
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.AssemblyInfo.cs
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.csproj.CoreCompileInputs.cache
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.sourcelink.json
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\refint\Reversi.Tui.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\Reversi.Tui.genruntimeconfig.cache
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Tui\obj\Debug\net8.0\ref\Reversi.Tui.dll

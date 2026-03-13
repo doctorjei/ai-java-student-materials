@@ -4,3 +4,16 @@ c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 -
 c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.AssemblyInfo.cs
 c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.csproj.CoreCompileInputs.cache
 c:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi.Student.sourcelink.json
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\StudentAI.deps.json
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\StudentAI.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\StudentAI.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\ExampleAI.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\LibUwu.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\Reversi.Core.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\Reversi.Core.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\bin\Debug\net8.0\LibUwu.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\Reversi..084D5B70.Up2Date
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\StudentAI.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\refint\StudentAI.dll
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\StudentAI.pdb
+C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Student\obj\Debug\net8.0\ref\StudentAI.dll

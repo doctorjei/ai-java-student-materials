@@ -16,23 +16,25 @@ public class Minimax : ReversiBehavior
         Move best_move = null;
         State new_state;
         
-        for (int i = 0; i < board.GRID_SIZE; i++)
+        for (int i = 0; i < State.GRID_SIZE; i++)
         {
-            for (int j = 0; j < board.GRID_SIZE; j++)
+            for (int j = 0; j < State.GRID_SIZE; j++)
             {
                 // Consider move at location (row, column) -> (i, j)
-                if (board.IsValidMove(board.Current, i, j))
+                if (board.IsValidMove(board.Current, State.NewMove(i, j)))
                 {
                     new_state = new State(board);
                     Move move = State.NewMove(i, j);
                     new_state.MakeMove(move);
 
-                    if (new_state.HasAnyValidMove(-board.Current))
+                    Player nextPlayer = (board.Current == Player.Black) ? Player.White : Player.Black;
+
+                    if (new_state.HasAnyValidMove(nextPlayer))
                     {
-                        new_state.setCurrent(-board.Current);
+                        new_state.setCurrent(nextPlayer);
                     }
 
-                    if (new_state.IsTerminalState() || (depth == 0))
+                    if (new_state.IsTerminalState() || (depth == 1))
                     {
                         move.Rank = Evaluate(new_state);
                     }
@@ -45,7 +47,7 @@ public class Minimax : ReversiBehavior
                     {
                         best_move = move;
                     }
-                    else if (board.Current == 1)
+                    else if ((int)board.Current == 1)
                     {
                         if (move.Rank > best_move.Rank)
                         {
@@ -72,50 +74,50 @@ public class Minimax : ReversiBehavior
         // TODO: Evaluation method for state
         int score = 0;
 
-        for (int i = 0; i < board.GRID_SIZE; i++)
+        for (int i = 0; i < State.GRID_SIZE; i++)
         {
-            for (int j = 0; j < board.GRID_SIZE; j++)
+            for (int j = 0; j < State.GRID_SIZE; j++)
             {
                 if (i == 0)
                 {
-                    if ((j == 0) || (j == board.GRID_SIZE - 1))
+                    if ((j == 0) || (j == State.GRID_SIZE - 1))
                     {
-                        score += board[i, j] * 100;
+                        score += (int)board[i, j] * 100;
                     }
                     else
                     {
-                        score += board[i, j] * 10;
+                        score += (int)board[i, j] * 10;
                     }
                 }
-                else if (i == board.GRID_SIZE - 1)
+                else if (i == State.GRID_SIZE - 1)
                 {
-                    if ((j == 0) || (j == board.GRID_SIZE - 1))
+                    if ((j == 0) || (j == State.GRID_SIZE - 1))
                     {
-                        score += board[i, j] * 100;
+                        score += (int)board[i, j] * 100;
                     }
                     else
                     {
-                        score += board[i, j] * 10;
+                        score += (int)board[i, j] * 10;
                     }
                 }
-                else if ((j == 0) || (j == board.GRID_SIZE - 1))
+                else if ((j == 0) || (j == State.GRID_SIZE - 1))
                 {
-                    score += board[i, j] * 10;
+                    score += (int)board[i, j] * 10;
                 }
                 else
                 {
-                    score += board[i, j];
+                    score += (int)board[i, j];
                 }
             }
         }
 
         if (board.IsTerminalState())
         {
-            if (score > 0)
+            if (board.score > 0)
             {
                 score += 10000;
             }
-            else if (score < 0)
+            else if (board.score < 0)
             {
                 score -= 10000;
             }

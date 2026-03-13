@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {}
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {}
   },
   "projects": {
-    "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
         "projectName": "LibUwu",
-        "projectPath": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
         "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\obj\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,394 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Gui\\Reversi.Gui.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj",
+        "projectName": "Reversi.Core",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj",
+        "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj",
+        "projectName": "Reversi.Engine",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj",
+        "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj"
+              },
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj"
+              },
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Gui\\Reversi.Gui.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Gui\\Reversi.Gui.csproj",
+        "projectName": "ReversiGui",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Gui\\Reversi.Gui.csproj",
+        "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Gui\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj"
+              },
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj"
+              },
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Controls.DataGrid": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "Avalonia.Themes.Simple": {
+              "target": "Package",
+              "version": "[11.3.9, )"
+            },
+            "CustomMessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[11.0.0.2, )"
+            },
+            "SkiaSharp.NativeAssets.Linux": {
+              "target": "Package",
+              "version": "[3.119.1, )"
+            },
+            "SkiaSharp.Views": {
+              "target": "Package",
+              "version": "[3.119.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj",
+        "projectName": "StudentAI",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj",
+        "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj": {
+                "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
+        "projectName": "LibUwu",
+        "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj",
+        "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.IO.Hashing": {
+              "target": "Package",
+              "version": "[9.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

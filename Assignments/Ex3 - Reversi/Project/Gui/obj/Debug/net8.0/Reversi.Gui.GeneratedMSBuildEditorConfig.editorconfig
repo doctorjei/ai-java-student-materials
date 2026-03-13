@@ -1,0 +1,35 @@
+is_global = true
+build_property.AvaloniaNameGeneratorIsEnabled = true
+build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
+build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
+build_property.AvaloniaNameGeneratorFilterByPath = *
+build_property.AvaloniaNameGeneratorFilterByNamespace = *
+build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
+build_property.AvaloniaNameGeneratorAttachDevTools = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Uwu.Games.Reversi.Gui
+build_property.ProjectDir = C:\Users\kagol\GitHub Clones\Intro to AI\intro-to-ai-materials\Assignments\Ex3 - Reversi\Project\Gui\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/kagol/GitHub Clones/Intro to AI/intro-to-ai-materials/Assignments/Ex3 - Reversi/Project/Gui/Views/About.Box.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kagol/GitHub Clones/Intro to AI/intro-to-ai-materials/Assignments/Ex3 - Reversi/Project/Gui/Views/ColorPicker.Dialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kagol/GitHub Clones/Intro to AI/intro-to-ai-materials/Assignments/Ex3 - Reversi/Project/Gui/Views/Options.Dialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kagol/GitHub Clones/Intro to AI/intro-to-ai-materials/Assignments/Ex3 - Reversi/Project/Gui/Views/Reversi.Window.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/kagol/GitHub Clones/Intro to AI/intro-to-ai-materials/Assignments/Ex3 - Reversi/Project/Gui/Views/Statistics.Dialog.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

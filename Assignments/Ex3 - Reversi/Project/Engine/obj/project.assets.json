@@ -1,0 +1,190 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "System.IO.Hashing/9.0.14": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "LibUwu/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "System.IO.Hashing": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LibUwu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibUwu.dll": {}
+        }
+      },
+      "Reversi.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "LibUwu": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Reversi.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Reversi.Core.dll": {}
+        }
+      },
+      "StudentAI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Reversi.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StudentAI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StudentAI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.IO.Hashing/9.0.14": {
+      "sha512": "cyfW1awmZVpEPAUCVlF8orJ2NqZjr6L4VpjE88Fvhp3XHDyQNRwC10zzjUPXmpjVknh+r2xFbVDdcX7LnzJ+zg==",
+      "type": "package",
+      "path": "system.io.hashing/9.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.IO.Hashing.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.IO.Hashing.targets",
+        "lib/net462/System.IO.Hashing.dll",
+        "lib/net462/System.IO.Hashing.xml",
+        "lib/net8.0/System.IO.Hashing.dll",
+        "lib/net8.0/System.IO.Hashing.xml",
+        "lib/net9.0/System.IO.Hashing.dll",
+        "lib/net9.0/System.IO.Hashing.xml",
+        "lib/netstandard2.0/System.IO.Hashing.dll",
+        "lib/netstandard2.0/System.IO.Hashing.xml",
+        "system.io.hashing.9.0.14.nupkg.sha512",
+        "system.io.hashing.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "LibUwu/1.0.0": {
+      "type": "project",
+      "path": "../Uwu/LibUwu.csproj",
+      "msbuildProject": "../Uwu/LibUwu.csproj"
+    },
+    "Reversi.Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Reversi.Core.csproj",
+      "msbuildProject": "../Core/Reversi.Core.csproj"
+    },
+    "StudentAI/1.0.0": {
+      "type": "project",
+      "path": "../Student/Reversi.Student.csproj",
+      "msbuildProject": "../Student/Reversi.Student.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "LibUwu >= 1.0.0",
+      "Reversi.Core >= 1.0.0",
+      "StudentAI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kagol\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj",
+      "projectName": "Reversi.Engine",
+      "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\Reversi.Engine.csproj",
+      "packagesPath": "C:\\Users\\kagol\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Engine\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\kagol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj": {
+              "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Core\\Reversi.Core.csproj"
+            },
+            "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj": {
+              "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj"
+            },
+            "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj": {
+              "projectPath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Uwu\\LibUwu.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.418/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

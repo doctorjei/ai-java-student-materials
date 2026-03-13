@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QyV4Kppad1g=",
+  "dgSpecHash": "ozovEKvOCzc=",
   "success": true,
-  "projectFilePath": "c:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj",
+  "projectFilePath": "C:\\Users\\kagol\\GitHub Clones\\Intro to AI\\intro-to-ai-materials\\Assignments\\Ex3 - Reversi\\Project\\Student\\Reversi.Student.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kagol\\.nuget\\packages\\system.io.hashing\\9.0.14\\system.io.hashing.9.0.14.nupkg.sha512"
   ],

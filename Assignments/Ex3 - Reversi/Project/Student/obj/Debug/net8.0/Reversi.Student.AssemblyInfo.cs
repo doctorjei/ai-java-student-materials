@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+08e3f1a86e3701d02e0cbbff6a6c956893313124")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58d3ced4e540c366cb0a07619a55834985c66f8f")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
