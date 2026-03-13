@@ -1,0 +1,107 @@
+<Window xmlns="https://github.com/avaloniaui" x:Class="Uwu.Games.Reversi.OptionsDialog"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="Options" CanResize="False"
+        Width="320" Height="350" ShowInTaskbar="False" WindowStartupLocation="CenterOwner">
+  <!-- Main Body -->
+  <Border Padding="12"><DockPanel>
+    <!-- Buttons at bottom -->
+    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center"
+                                                                  Spacing="8" Margin="0,12,0,0">
+      <Button x:Name="DefaultsButton" Content="Restore Defaults" HorizontalAlignment="Left" 
+                                        Width="120" Click="Defaults_Click"/>
+      <Button x:Name="OkButton" Content="OK" Width="75" IsDefault="True" HorizontalAlignment="Left" Click="Ok_Click"/>
+      <Button x:Name="CancelButton" Content="Cancel" Width="75" HorizontalAlignment="Left" Click="Cancel_Click"/>
+    </StackPanel>
+
+    <!-- Tab Control -->
+    <TabControl x:Name="OptionsControl" SelectedIndex="0">       
+      <!-- Display Tab -->
+      <TabItem Header="Display" CornerRadius="10,10,0,0" BorderThickness="1,1,1,0" BorderBrush="Silver"
+      HorizontalAlignment="Left"><ScrollViewer><StackPanel Spacing="8" Margin="12">
+
+        <!-- Checkboxes -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Spacing="12">
+          <CheckBox x:Name="ShowValid" HorizontalAlignment="Left" Content="Show Valid Moves"/>
+          <CheckBox x:Name="Preview" HorizontalAlignment="Right" Margin="20,0,0,0" Content="Preview Moves"/>
+        </StackPanel>
+        <CheckBox x:Name="Animate" HorizontalAlignment="Left" Content="Animate Moves"/>
+        <Separator Margin="0,8"/>                
+
+        <!-- Color Pickers -->
+        <Grid ColumnDefinitions="Auto,Auto,*" HorizontalAlignment="Center"
+                  RowDefinitions="Auto,Auto,Auto,Auto" RowSpacing="12" ColumnSpacing="8">                              
+          <!-- Board Color -->
+          <TextBlock Grid.Row="0" Grid.Column="0" Text="Board Color:"
+                                                  VerticalAlignment="Center"/>
+          <Border Grid.Row="0" Grid.Column="1" x:Name="BoardColorPanel" Width="24" Height="24"
+                                                      BorderBrush="Black" BorderThickness="1"/>
+          <Button Grid.Row="0" Grid.Column="2" x:Name="BoardColorButton"  Content="Select..."
+                                Width="80" HorizontalAlignment="Left" Click="BoardColor_Click"/>
+          <!-- Valid Move Color -->
+          <TextBlock Grid.Row="1" Grid.Column="0" Text="Valid Move Color:"
+                                                  VerticalAlignment="Center"/>
+          <Border Grid.Row="1" Grid.Column="1" x:Name="ValidColorPanel" Width="24" Height="24"
+                                                      BorderBrush="Black" BorderThickness="1"/>
+          <Button Grid.Row="1" Grid.Column="2" x:Name="ValidColorButton" Content="Select..."
+                                Width="80" HorizontalAlignment="Left" Click="ValidColor_Click"/>     
+          <!-- Active Square Color -->
+          <TextBlock Grid.Row="2" Grid.Column="0" Text="Active Square Color:" 
+                                                  VerticalAlignment="Center"/>
+          <Border Grid.Row="2" Grid.Column="1" x:Name="ActiveColorPanel" Width="24" 
+                                Height="24" BorderBrush="Black" BorderThickness="1"/>
+          <Button Grid.Row="2" Grid.Column="2" x:Name="ActiveColorButton" Width="80"
+            Content="Select..." HorizontalAlignment="Left" Click="ActiveColor_Click"/>
+          <!-- Move Indicator Color -->
+          <TextBlock Grid.Row="3" Grid.Column="0" Text="Move Indicator Color:" 
+                                                  VerticalAlignment="Center"/>
+          <Border Grid.Row="3" Grid.Column="1" x:Name="MoveColorPanel" Width="24" Height="24"
+                                                    BorderBrush="Black" BorderThickness="1"/>
+          <Button Grid.Row="3" Grid.Column="2" x:Name="MoveColorButton" Content="Select..."
+                              Width="80" HorizontalAlignment="Left" Click="MoveColor_Click"/>
+        </Grid>
+      </StackPanel></ScrollViewer></TabItem>
+
+      <!-- Players Tab -->
+      <TabItem Header="Players" CornerRadius="10,10,0,0" BorderThickness="1,1,1,0" BorderBrush="Silver"
+          HorizontalAlignment="Center"><StackPanel Spacing="16" Margin="12">
+        <!-- Player One -->
+        <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="15,12,15,20"><StackPanel Spacing="8">
+          <TextBlock Text="P1 (Black Pieces)" TextDecorations="Underline" FontWeight="Bold"/>
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Spacing="12">
+            <RadioButton x:Name="P1_ExampleAiAgent" HorizontalAlignment="Left" Content="Example AI" GroupName="P1"/>
+            <RadioButton x:Name="P1_HumanAgent" HorizontalAlignment="Right" Margin="35,0,0,0" Content="Homo Sapiens" GroupName="P1"/>
+          </StackPanel>
+          <RadioButton x:Name="P1_StudentAiAgent" HorizontalAlignment="Stretch" Content="Student AI" GroupName="P1"/>
+        </StackPanel></Border>              
+        <!-- Player Two -->
+        <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="15,12,15,20"> <StackPanel Spacing="8">
+          <TextBlock Text="P2 (White Pieces)" TextDecorations="Underline" FontWeight="Bold"/>
+          <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Spacing="12">
+            <RadioButton x:Name="P2_ExampleAiAgent" HorizontalAlignment="Left" Content="Example AI" GroupName="P2"/>
+            <RadioButton x:Name="P2_HumanAgent" HorizontalAlignment="Right" Margin="35,0,0,0" Content="Homo Sapiens" GroupName="P2"/>
+          </StackPanel>
+          <RadioButton x:Name="P2_StudentAiAgent" HorizontalAlignment="Left" Content="Student AI" GroupName="P2"/>
+        </StackPanel></Border>
+      </StackPanel></TabItem>    
+
+      <!-- Difficulty Tab -->
+      <TabItem Header="Difficulty" CornerRadius="10,10,0,0" BorderThickness="1,1,1,0" BorderBrush="Silver"
+      HorizontalAlignment="Right"><StackPanel Spacing="16" Margin="12">
+        <!-- Black Player Difficulty -->
+        <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="12"><StackPanel Spacing="8">
+          <TextBlock Text="P1 (Black Pieces)" TextDecorations="Underline" FontWeight="Bold"/>
+          <Slider x:Name="P1_LevelSlider" Minimum="0" Maximum="2" TickFrequency="1" 
+                            IsSnapToTickEnabled="True" ValueChanged="P1_LevelSlider_ValueChanged"/>
+          <TextBlock x:Name="P1_LevelLabel" Text="Look Ahead Depth: 0 - Beginner" Margin="0,4,0,0"/>
+        </StackPanel></Border>         
+        <!-- White Player Difficulty -->
+        <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="12"><StackPanel Spacing="8">
+          <TextBlock Text="P2 (White Pieces)" TextDecorations="Underline" FontWeight="Bold"/>
+          <Slider x:Name="P2_LevelSlider" Minimum="0" Maximum="2" TickFrequency="1" 
+                            IsSnapToTickEnabled="True" ValueChanged="P2_LevelSlider_ValueChanged"/>
+          <TextBlock x:Name="P2_LevelLabel" Text="Look Ahead Depth: 0 - Beginner" Margin="0,4,0,0"/>
+        </StackPanel></Border>
+      </StackPanel></TabItem>
+    </TabControl>
+
+  </DockPanel></Border>
+</Window>

@@ -1,0 +1,82 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Uwu.Games.Reversi.StatisticsDialog" Title="Statistics" CanResize="False"
+        SizeToContent="WidthAndHeight" ShowInTaskbar="False" WindowStartupLocation="CenterOwner">
+
+  <Border Padding="12">
+    <StackPanel Spacing="8">
+      <!-- Overall Statistics Group -->
+      <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="8">
+        <StackPanel Spacing="4">
+          <TextBlock Text="Overall" FontWeight="Bold" Margin="0,0,0,8"/>
+                    
+          <Grid ColumnDefinitions="Auto,*,Auto,*" RowDefinitions="Auto,Auto,Auto,Auto,Auto">
+            <!-- Wins Section -->
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Black wins:" Margin="8,4"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" x:Name="BlackWinsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="White wins:" Margin="8,4"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" x:Name="WhiteWinsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Draws:" Margin="8,4"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="OverallDrawsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <!-- Total Score Section -->
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="Total Score:" 
+                       FontWeight="Bold" Margin="16,4,8,4" Grid.RowSpan="3" VerticalAlignment="Top"/>
+                        
+            <TextBlock Grid.Row="1" Grid.Column="2" Text="Black:" Margin="16,4,8,4"/>
+            <TextBlock Grid.Row="1" Grid.Column="3" x:Name="BlackTotalScoreLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,8,4"/>
+                        
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="White:" Margin="16,4,8,4"/>
+            <TextBlock Grid.Row="2" Grid.Column="3" x:Name="WhiteTotalScoreLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,8,4"/>
+          </Grid>
+        </StackPanel>
+      </Border>
+
+      <!-- vs. Computer Statistics Group -->
+      <Border BorderBrush="#C0C0C0" BorderThickness="1" Padding="8">
+        <StackPanel Spacing="4">
+          <TextBlock Text="vs. Computer" FontWeight="Bold" Margin="0,0,0,8"/>
+                    
+          <Grid ColumnDefinitions="Auto,*,Auto,*" RowDefinitions="Auto,Auto,Auto,Auto">
+            <!-- Wins Section -->
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Computer wins:" Margin="8,4"/>
+            <TextBlock Grid.Row="0" Grid.Column="1" x:Name="ComputerWinsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="User wins:" Margin="8,4"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" x:Name="UserWinsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <TextBlock Grid.Row="2" Grid.Column="0" Text="Draws:" Margin="8,4"/>
+            <TextBlock Grid.Row="2" Grid.Column="1" x:Name="VsComputerDrawsLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,16,4"/>
+                        
+            <!-- Total Score Section -->
+            <TextBlock Grid.Row="0" Grid.Column="2" Text="Total Score:" 
+                       FontWeight="Bold" Margin="16,4,8,4" Grid.RowSpan="3" VerticalAlignment="Top"/>
+                        
+            <TextBlock Grid.Row="1" Grid.Column="2" Text="Computer:" Margin="16,4,8,4"/>
+            <TextBlock Grid.Row="1" Grid.Column="3" x:Name="ComputerTotalScoreLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,8,4"/>
+                        
+            <TextBlock Grid.Row="2" Grid.Column="2" Text="User:" Margin="16,4,8,4"/>
+            <TextBlock Grid.Row="2" Grid.Column="3" x:Name="UserTotalScoreLabel" Text="0" 
+                       HorizontalAlignment="Right" Margin="0,4,8,4"/>
+          </Grid>
+        </StackPanel>
+      </Border>
+
+      <!-- Buttons -->
+      <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Spacing="8" Margin="0,8,0,0">
+        <Button x:Name="ResetButton" Content="Reset" Width="75" Click="ResetButton_Click"/>
+        <Button x:Name="CloseButton" Content="Close" Width="75" IsDefault="True" Click="CloseButton_Click"/>
+      </StackPanel>
+    </StackPanel>
+  </Border>
+</Window>

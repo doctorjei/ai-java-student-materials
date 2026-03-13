@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- General settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ProjectGuid>{BD8C00F3-F4DA-470F-AC51-38246CC416A6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <RootNamespace>Uwu.Games.Reversi.StudentAI</RootNamespace>
+    <AssemblyName>StudentAI</AssemblyName> <!-- Check out OutputAssembly too -->
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <!-- Debug Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <!--OutputPath>bin\Debug\</OutputPath-->
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Release Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <!--OutputPath>bin\Release\</OutputPath-->
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Dependencies on projects in solution -->
+  <ItemGroup><ProjectReference Include="..\Core\Reversi.Core.csproj" /></ItemGroup>
+
+</Project>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ProjectGuid>{E4B2BDA7-CAFD-47C9-A306-305B32E02F38}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <RootNamespace>Uwu.Games.Reversi.Engine</RootNamespace>
+    <AssemblyName>Reversi.Engine</AssemblyName> <!-- Check out OutputAssembly too -->
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <!-- Debug Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Release Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <!--OutputPath>bin\Release\</OutputPath-->
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Dependencies on projects in solution -->
+  <ItemGroup>
+    <ProjectReference Include="..\Uwu\LibUwu.csproj" />
+    <ProjectReference Include="..\Core\Reversi.Core.csproj" />
+    <ProjectReference Include="..\Student\Reversi.Student.csproj" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <Reference Include="ExampleAI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\ExampleAI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

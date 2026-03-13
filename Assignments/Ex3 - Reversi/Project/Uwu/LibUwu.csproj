@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- General settings -->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ProjectGuid>{C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Uwu</RootNamespace>
+    <AssemblyName>LibUwu</AssemblyName> <!-- Check out OutputAssembly too -->
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <!-- Debug Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <!--OutputPath>bin\Debug\</OutputPath-->
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Release Configuration -->
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Optimize>true</Optimize>
+    <!--OutputPath>bin\Release\</OutputPath-->
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <!-- Package dependencies -->
+  <ItemGroup>
+   <PackageReference Include="System.IO.Hashing" Version="9.*" />
+  </ItemGroup>
+</Project>

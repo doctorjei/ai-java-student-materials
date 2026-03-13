@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibUwu", "Uwu\LibUwu.csproj", "{C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversiCore", "Core\Reversi.Core.csproj", "{BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversiSystem", "Engine\Reversi.Engine.csproj", "{E4B2BDA7-CAFD-47C9-A306-305B32E02F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentAI", "Student\Reversi.Student.csproj", "{BD8C00F3-F4DA-470F-AC51-38246CC416A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversiGui", "Gui\Reversi.Gui.csproj", "{9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversiTui", "Tui\Reversi.Tui.csproj", "{9D076CFE-377D-4C10-B5EB-886FEC9A93CF}"
+EndProject
+Global
+        GlobalSection(SolutionConfigurationPlatforms) = preSolution
+                Debug|Any CPU = Debug|Any CPU
+                Release|Any CPU = Release|Any CPU
+        EndGlobalSection
+        GlobalSection(SolutionProperties) = preSolution
+                HideSolutionNode = FALSE
+        EndGlobalSection
+        GlobalSection(ProjectConfigurationPlatforms) = postSolution
+                {C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {C55DD3AC-3D24-4A1F-B4F9-2E804656F9B5}.Release|Any CPU.Build.0 = Release|Any CPU
+
+                {BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {BAEC82F1-C9FC-4F57-8022-070C2CD50EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+
+                {E4B2BDA7-CAFD-47C9-A306-305B32E02F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {E4B2BDA7-CAFD-47C9-A306-305B32E02F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {E4B2BDA7-CAFD-47C9-A306-305B32E02F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {E4B2BDA7-CAFD-47C9-A306-305B32E02F38}.Release|Any CPU.Build.0 = Release|Any CPU
+
+                {BD8C00F3-F4DA-470F-AC51-38246CC416A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {BD8C00F3-F4DA-470F-AC51-38246CC416A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {BD8C00F3-F4DA-470F-AC51-38246CC416A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {BD8C00F3-F4DA-470F-AC51-38246CC416A6}.Release|Any CPU.Build.0 = Release|Any CPU
+                
+                {9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {9F89DA23-39C3-4D6D-8847-7CD9A9F2A1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+                
+                {9D076CFE-377D-4C10-B5EB-886FEC9A93CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {9D076CFE-377D-4C10-B5EB-886FEC9A93CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {9D076CFE-377D-4C10-B5EB-886FEC9A93CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {9D076CFE-377D-4C10-B5EB-886FEC9A93CF}.Release|Any CPU.Build.0 = Release|Any CPU
+                
+        EndGlobalSection
+        GlobalSection(ExtensibilityGlobals) = postSolution
+                SolutionGuid = {9EA076A8-2346-4AE9-9EF3-A173B9880990}
+        EndGlobalSection
+EndGlobal

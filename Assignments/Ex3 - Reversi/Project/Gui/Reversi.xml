@@ -1,0 +1,33 @@
+<ProgramSettings>
+  <Window>
+    <Left>0</Left>
+    <Top>0</Top>
+    <Width>576</Width>
+    <Height>480</Height>
+  </Window>
+  <Options>
+    <AiType_0>Human</AiType_0>
+    <AiType_1>ExampleAI</AiType_1>
+    <AiLevel_0>Beginner</AiLevel_0>
+    <AiLevel_1>Advanced</AiLevel_1>
+    <ShowValidMoves>True</ShowValidMoves>
+    <PreviewMoves>False</PreviewMoves>
+    <AnimateMoves>True</AnimateMoves>
+    <BoardColor>Green</BoardColor>
+    <ValidMoveColor>#ff00b000</ValidMoveColor>
+    <ActiveSquareColor>#ff00e000</ActiveSquareColor>
+    <MoveIndicatorColor>Red</MoveIndicatorColor>
+  </Options>
+  <Statistics>
+    <BlackWins>0</BlackWins>
+    <WhiteWins>2</WhiteWins>
+    <OverallDraws>0</OverallDraws>
+    <BlackTotalScore>0</BlackTotalScore>
+    <WhiteTotalScore>128</WhiteTotalScore>
+    <ComputerWins>2</ComputerWins>
+    <UserWins>0</UserWins>
+    <VsComputerDraws>0</VsComputerDraws>
+    <ComputerTotalScore>128</ComputerTotalScore>
+    <UserTotalScore>0</UserTotalScore>
+  </Statistics>
+</ProgramSettings>

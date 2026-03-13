@@ -1,0 +1,199 @@
+<Window xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Uwu.Games.Reversi.MainWindow" Width="576" Height="480" Title="Reversi"
+        Icon="avares://ReversiGui/Assets/Reversi.ico">
+
+  <Window.Styles>
+    <Style Selector="Label.HeaderLabel">
+      <Setter Property="Background" Value="#A0A0A0"/>
+      <Setter Property="Foreground" Value="#FFFFFF"/>
+      <Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="BorderBrush" Value="#A0A0A0"/>
+      <Setter Property="HorizontalContentAlignment" Value="Center"/>
+      <Setter Property="VerticalContentAlignment" Value="Center"/>
+      <Setter Property="FontWeight" Value="SemiBold"/>
+    </Style>
+
+    <Style Selector="Button.PanelButton">
+      <Setter Property="CornerRadius" Value="4"/>
+      <Setter Property="BorderThickness" Value="0"/>
+      <Setter Property="Padding" Value="2"/>
+      <Setter Property="Background" Value="#D8D8D8"/>
+
+      <Style Selector="^:pointerover">
+        <Setter Property="Background" Value="#FFFFFF"/>
+      </Style>
+
+      <Style Selector="^:disabled">
+        <Setter Property="Background" Value="#E0E0E0"/>
+      </Style>
+
+      <Style Selector="^:pressed">
+        <Setter Property="Background" Value="#808080"/>
+        <Setter Property="BorderBrush" Value="#808080"/>
+        <Setter Property="BorderThickness" Value="2"/>
+        <Setter Property="Padding" Value="0"/>
+      </Style>
+    </Style>
+
+    <Style Selector="Border.ButtonPanel">
+      <Setter Property="Margin" Value="0"/>
+      <Setter Property="BoxShadow" Value=".5 .5 0 1 White"/>
+      <Setter Property="BorderBrush" Value="#D0D0D0"/>
+      <Setter Property="BorderThickness" Value="1"/>
+      <Setter Property="CornerRadius" Value="3"/>
+      <Setter Property="Background" Value="#DADADA"/>
+      <!--Setter Property="VerticalAlignment" Value="Stretch"/>
+      <Setter Property="HorizontalAlignment" Value="Stretch"/-->
+
+      <Style Selector="^:pointerover">
+        <Setter Property="Background" Value="#FFFFFF"/>
+        <Setter Property="BoxShadow" Value="0.5 0.5 1 1 #B8B8B8"/>
+      </Style>
+      <Style Selector="^:disabled">
+        <Setter Property="Background" Value="#E0E0E0"/>
+      </Style>
+    </Style>
+
+    <Style Selector="Border.EngravedPanel">
+      <Setter Property="BorderThickness" Value="1"/>
+      <Setter Property="BorderBrush" Value="#D0D0D0"/>
+      <Setter Property="BoxShadow" Value=".5 .5 0 1 White"/>
+    </Style>
+
+    <Style Selector="TextBlock.ShadowText">
+      <Setter Property="Effect">
+        <DropShadowEffect
+            OffsetX="1"
+            OffsetY="1"
+            Color="Gray"
+            Opacity="0.6"
+            BlurRadius="0"/>
+      </Setter>
+    </Style>
+  </Window.Styles>
+
+  <DockPanel Background="#F0F0F0">
+    <Menu DockPanel.Dock="Top" x:Name="mainMenu">
+      <MenuItem x:Name="GameItem" Header="_Game">
+        <MenuItem x:Name="NewGameItem" Header="_New Game" HotKey="Ctrl+N"/>  
+        <MenuItem x:Name="ResignItem" Header="_Resign" HotKey="Ctrl+R"/>
+        <Separator/>
+        <MenuItem x:Name="OptionsItem" Header="_Options" HotKey="Ctrl+O"/>
+        <MenuItem x:Name="StatsItem" Header="_Statistics" HotKey="Ctrl+S"/>
+        <Separator/>
+        <MenuItem x:Name="ExitItem" Header="E_xit" HotKey="Ctrl+X"/>
+      </MenuItem>
+      <MenuItem x:Name="MoveItem" Header="_Move">
+        <MenuItem x:Name="UndoItem" Header="_Undo Move" HotKey="Ctrl+Z"/>
+        <MenuItem x:Name="UndoAllItem" Header="Undo _All Moves" HotKey="Ctrl+Shift+Z"/>
+                <MenuItem x:Name="RedoItem" Header="_Redo Move" HotKey="Ctrl+Y"/> 
+        <MenuItem x:Name="RedoAllItem" Header="Redo _All Moves" HotKey="Ctrl+Shift+Y"/>
+        <Separator/>
+        <MenuItem x:Name="ResumeItem" Header="_Resume Play" HotKey="Ctrl+P"/>
+      </MenuItem>
+      <MenuItem x:Name="HelpItem" Header="_Help">
+        <MenuItem x:Name="HelpTopicsItem" Header="_Help Topics" HotKey="Ctrl+H"/>
+        <Separator/>
+        <MenuItem x:Name="AboutItem" Header="_About" HotKey="Ctrl+A"/>
+      </MenuItem>
+    </Menu>
+
+    <Border DockPanel.Dock="Top" Background="{DynamicResource SystemControlBackgroundBaseLowBrush}" Padding="2,2,2,2">
+      <StackPanel x:Name="PlayToolBar" Orientation="Horizontal" Margin="10,5" Spacing="2">        
+        <Border x:Name="NewGamePanel" Classes="ButtonPanel"><Button x:Name="NewGameButton" Classes="PanelButton">
+          <Image Source="avares://ReversiGui/Assets/NewGame.png" Width="32" Height="32"/>
+        </Button></Border>
+        <Border x:Name="ResignPanel" Classes="ButtonPanel"><Button x:Name="ResignButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/Resign.png" Width="32" Height="32"/>
+        </Button></Border>
+        <Separator Margin="4,0"/>
+        <Border x:Name="UndoAllPanel" Classes="ButtonPanel"><Button x:Name="UndoAllButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/UndoAll.png" Width="32" Height="32"/>
+          </Button></Border>
+        <Border x:Name="UndoPanel" Classes="ButtonPanel"><Button x:Name="UndoButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/Undo.png" Width="32" Height="32"/>
+          </Button></Border>
+        <Border x:Name="ResumePanel" Classes="ButtonPanel"><Button x:Name="ResumeButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/Resume.png" Width="32" Height="32"/>
+          </Button></Border>
+        <Border x:Name="RedoPanel" Classes="ButtonPanel"><Button x:Name="RedoButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/Redo.png" Width="32" Height="32"/>
+          </Button></Border>
+        <Border x:Name="RedoAllPanel" Classes="ButtonPanel"><Button x:Name="RedoAllButton" Classes="PanelButton">
+            <Image Source="avares://ReversiGui/Assets/RedoAll.png" Width="32" Height="32"/>
+          </Button></Border>
+      </StackPanel>
+    </Border>
+
+    <Border x:Name="StatusPanel" DockPanel.Dock="Bottom" Padding="4" Margin="0,5,0,0"
+        Background="#F0F0F0" BorderBrush="#A0A0A0" BorderThickness="0,1,0,0">
+      <DockPanel>
+        <TextBlock x:Name="StatusLabel" DockPanel.Dock="Left" Text="Ready" VerticalAlignment="Center"/>
+        <ProgressBar x:Name="StatusBar" DockPanel.Dock="Right" Width="140" Height="16" IsVisible="False" VerticalAlignment="Center"/>
+      </DockPanel>
+    </Border>
+
+    <Grid Margin="5,5">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="200"/>
+      </Grid.ColumnDefinitions>
+
+      <!-- Board Panel in Column 0 -->
+      <Viewbox Grid.Column="0" Margin="5,0" Stretch="Uniform">
+        <Border x:Name="BoardPanel" MaxWidth="420" MaxHeight="420" Width="360" Height="360" BorderThickness="1" BorderBrush="Black">
+          <Grid x:Name="SquaresPanel" Background="#a0a0a0">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="24"/>
+            </Grid.RowDefinitions>    
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="24"/>
+            </Grid.ColumnDefinitions>
+          </Grid>
+        </Border>
+      </Viewbox>
+
+      <!-- Info Panel in Column 1 -->
+      <Grid x:Name="InfoPanel" Grid.Column="1" Margin="5,0" MaxHeight="420" Height="360" RowDefinitions="Auto,*" VerticalAlignment="Stretch">
+        <Border BorderThickness="0" Height="20" Grid.Row="0" ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Top" Padding="5 0" Background="#F0F0F0">
+          <TextBlock VerticalAlignment="Center" Classes="ShadowText" FontWeight="Medium" Text="SCORES" FontSize="14"/>
+        </Border>
+        <Border Classes="EngravedPanel" Padding="5" CornerRadius="10" Grid.Row="0" Margin="0 10">
+          <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0">
+            <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,5,0,0" VerticalAlignment="Stretch">
+              <TextBlock Text="Black:" Width="60" FontSize="14" />
+              <TextBlock x:Name="BlackCountLabel" Width="20" Text="00" TextAlignment="Right" FontSize="14" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,5,0,0" VerticalAlignment="Stretch">
+              <TextBlock Text="White:" Width="60" FontSize="14" />
+              <TextBlock x:Name="WhiteCountLabel" Width="20" Text="00" TextAlignment="Right" FontSize="14" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Spacing="10" Margin="0,5,0,5" VerticalAlignment="Stretch">
+              <TextBlock x:Name="ColorLabel" Text="" Height="20" Width="60" VerticalAlignment="Center" FontSize="14" IsVisible="True"/>
+              <Border x:Name="ColorPanel" Width="20" Height="20" BorderBrush="Black" 
+                      BorderThickness="1" IsVisible="False"/>
+            </StackPanel>
+          </StackPanel>
+        </Border>
+        
+        <Border Grid.Row="1" BorderBrush="#A0A0A0" BorderThickness="1" Background="White" VerticalAlignment="Stretch" >
+          <DataGrid x:Name="MoveView"
+                    MinHeight="200"
+                    AutoGenerateColumns="False"
+                    FontSize="11"
+                    Background="White"
+                    HeadersVisibility="Column"
+                    CanUserSortColumns="False"
+                    GridLinesVisibility="None"
+                    IsReadOnly="True">
+            <DataGrid.Columns>
+              <DataGridTextColumn Width="40" Header="#" Binding="{Binding MoveNumber}" />
+              <DataGridTextColumn Width="60" Header="Player" Binding="{Binding Player}" />
+              <DataGridTextColumn Width="*" Header="Position" Binding="{Binding Position}" />
+            </DataGrid.Columns>
+          </DataGrid>
+        </Border>
+      </Grid>
+    </Grid>
+  </DockPanel>
+</Window>
