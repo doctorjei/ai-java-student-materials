@@ -1,0 +1,76 @@
+=============================
+| METHOD TESTS - LinkedList |
+=============================
+
+enqueue()
+---------
+referenceList: [ alpha ]
+referenceList: [ alpha bravo ]
+referenceList: [ alpha bravo charlie ]
+referenceList: [ alpha bravo charlie charlie ]
+referenceList: [ alpha bravo charlie charlie dog ]
+referenceList: [ alpha bravo charlie charlie dog echo ]
+referenceList: [ alpha bravo charlie charlie dog echo foxtrot ]
+referenceList: [ alpha bravo charlie charlie dog echo foxtrot golf ]
+
+valueList: [ a ]
+valueList: [ a b ]
+valueList: [ a b c ]
+valueList: [ a b c c ]
+valueList: [ a b c c d ]
+valueList: [ a b c c d e ]
+valueList: [ a b c c d e f ]
+valueList: [ a b c c d e f g ]
+
+
+dequeue(), getFront()
+---------------------
+Removing front element "alpha"   [ bravo charlie charlie dog echo foxtrot golf ]
+Removing front element "bravo"   [ charlie charlie dog echo foxtrot golf ]
+Removing front element "charlie" [ charlie dog echo foxtrot golf ]
+Removing front element "charlie" [ dog echo foxtrot golf ]
+Removing front element "dog"     [ echo foxtrot golf ]
+Removing front element "echo"    [ foxtrot golf ]
+Removing front element "foxtrot" [ golf ]
+Removing front element "golf"    [ ]
+
+.-----------------.
+| Post-Test State |
+'-----------------'
+referenceList: [ ]
+valueList:     [ g ]
+
+remove() - removing only element 'g': [ ]
+contain() - searching for uncontained 'a': [ ]
+
+
+pop(), getBack()
+----------------
+******** Rebuilt List ********* [ alpha bravo charlie charlie dog echo foxtrot golf ]
+Removing back element "golf"    [ alpha bravo charlie charlie dog echo foxtrot ]
+Removing back element "foxtrot" [ alpha bravo charlie charlie dog echo ]
+Removing back element "echo"    [ alpha bravo charlie charlie dog ]
+Removing back element "dog"     [ alpha bravo charlie charlie ]
+Removing back element "charlie" [ alpha bravo charlie ]
+Removing back element "charlie" [ alpha bravo ]
+Removing back element "bravo"   [ alpha ]
+Removing back element "alpha"   [ ]
+******** Rebuilding Lists (from index of 1) *********
+referenceList: [ bravo charlie charlie dog echo foxtrot golf ]
+valueList:     [ b c c d e f g ]
+
+
+contains(), remove()
+--------------------
+Unsuccessful search & remove: *** ELEMENT NOT FOUND. ***
+Search & removal of "bravo":  [ charlie charlie dog echo foxtrot golf ]
+Search & removal of "dog":    [ charlie charlie echo foxtrot golf ]
+Search & removal of "golf":   [ charlie charlie echo foxtrot ]
+
+
+clear()
+-------
+Removing all elements from referenceList: [ ]
+
+Press ENTER to continue...
+

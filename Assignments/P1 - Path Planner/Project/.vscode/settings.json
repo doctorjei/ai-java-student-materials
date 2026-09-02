@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": ["./"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        ],
+    "java.project.exportJar.targetPath": "",
+    "git.openRepositoryInParentFolders": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "jdk.telemetry.enabled": false,
+    "java.jdt.ls.java.home": "",
+}
