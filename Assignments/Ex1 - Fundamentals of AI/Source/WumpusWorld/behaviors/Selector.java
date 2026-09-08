@@ -1,6 +1,6 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 import java.util.function.Consumer;
-import wumpusworld.Behavior;
+import WumpusWorld.Behavior;
 
 public class Selector extends Behavior
 {

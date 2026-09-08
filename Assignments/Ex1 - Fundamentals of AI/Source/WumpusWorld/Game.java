@@ -2,15 +2,15 @@
 //! \brief Entry point of Wumpus World game; fefines the <code>Game</code> class.
 //! \author Jeremiah Blanchard, August 2009
 // Updated by Jeremiah Blanchard, January 2012, September 2025
-package wumpusworld;
+package WumpusWorld;
 
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-import wumpusworld.Behavior;
-import wumpusworld.behaviors.*;
-import static wumpusworld.World.Stimuli.*;
-import static wumpusworld.Agent.Direction;
+import WumpusWorld.Behavior;
+import WumpusWorld.behaviors.*;
+import static WumpusWorld.World.Stimuli.*;
+import static WumpusWorld.Agent.Direction;
 
 public final class Game
 {

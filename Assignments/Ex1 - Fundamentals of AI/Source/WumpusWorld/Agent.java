@@ -1,11 +1,11 @@
 //! \file Agent.java
 //! \brief Defines the <code>Agent</code> class.
 //! \author Jeremiah Blanchard
-package wumpusworld;
+package WumpusWorld;
 
 import java.util.function.Consumer;
-import wumpusworld.World;
-import wumpusworld.Behavior;
+import WumpusWorld.World;
+import WumpusWorld.Behavior;
 
 //! \brief The Agent class for this project
 public class Agent

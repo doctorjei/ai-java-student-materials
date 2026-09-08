@@ -1,7 +1,7 @@
 //! \file World.java
 //! \brief Defines the <code>World</code> class.
 //! \author Jeremiah Blanchard
-package wumpusworld;
+package WumpusWorld;
 
 // friend class Game; <-- OK without this?...
 

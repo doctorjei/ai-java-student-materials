@@ -1,7 +1,7 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 import java.util.function.Consumer;
-import wumpusworld.Behavior;
-import wumpusworld.Agent;
+import WumpusWorld.Behavior;
+import WumpusWorld.Agent;
 
 public class DebugKnowledge extends Behavior
 {

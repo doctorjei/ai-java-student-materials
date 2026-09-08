@@ -1,7 +1,7 @@
 //! \file Behavior.java
 //! \brief Defines the <code>Behavior</code> interface.
 //! \author Jeremiah Blanchard
-package wumpusworld;
+package WumpusWorld;
 
 import ai_structures.TreeNode;
 import java.util.function.Consumer;

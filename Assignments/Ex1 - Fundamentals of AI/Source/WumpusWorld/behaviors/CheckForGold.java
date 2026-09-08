@@ -1,8 +1,8 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 import java.util.function.Consumer;
-import wumpusworld.Behavior;
-import wumpusworld.Agent;
-import wumpusworld.World.Stimuli;
+import WumpusWorld.Behavior;
+import WumpusWorld.Agent;
+import WumpusWorld.World.Stimuli;
 
 public class CheckForGold extends Behavior
 {

@@ -1,10 +1,10 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 import java.util.function.Consumer;
 
-import wumpusworld.Agent;
-import wumpusworld.Agent.Direction;
-import wumpusworld.Behavior;
-import wumpusworld.World;
+import WumpusWorld.Agent;
+import WumpusWorld.Agent.Direction;
+import WumpusWorld.Behavior;
+import WumpusWorld.World;
 
 public class ShootWumpus extends Behavior
 {

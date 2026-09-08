@@ -1,11 +1,11 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 import java.util.function.Consumer;
 
-import wumpusworld.Agent;
-import wumpusworld.Agent.Direction;
-import wumpusworld.Agent.Knowledge;
-import wumpusworld.Behavior;
-import wumpusworld.World.Stimuli;
+import WumpusWorld.Agent;
+import WumpusWorld.Agent.Direction;
+import WumpusWorld.Agent.Knowledge;
+import WumpusWorld.Behavior;
+import WumpusWorld.World.Stimuli;
 
 public class ExploreDirection extends Behavior
 {

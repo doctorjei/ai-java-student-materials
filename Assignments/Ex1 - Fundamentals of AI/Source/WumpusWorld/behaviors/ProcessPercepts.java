@@ -1,12 +1,12 @@
-package wumpusworld.behaviors;
+package WumpusWorld.behaviors;
 
-import wumpusworld.Agent;
-import wumpusworld.Agent.Knowledge;
-import wumpusworld.Behavior;
+import WumpusWorld.Agent;
+import WumpusWorld.Agent.Knowledge;
+import WumpusWorld.Behavior;
 
-import static wumpusworld.Agent.Knowledge.Status.*;
-import wumpusworld.Agent.Direction;
-import wumpusworld.World.Stimuli;
+import static WumpusWorld.Agent.Knowledge.Status.*;
+import WumpusWorld.Agent.Direction;
+import WumpusWorld.World.Stimuli;
 
 public class ProcessPercepts extends Behavior
 {
